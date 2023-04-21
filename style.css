@@ -1,0 +1,12 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.flexContainer { 
+    background-color: aquamarine;
+    border: 4 px salmon;
+    height: 15px;
+    flex: 1;
+}
