@@ -1,12 +1,24 @@
-.flexContainer {
-    display: flex;
-    justify-content: center;
-   
-}
+  .title {
+    color: rgb(50, 150, 168);
+  }
 
-.flexContainer { 
-    background-color: aquamarine;
-    border: 4 px salmon;
-    height: 15px;
-    flex: 1;
-}
+  #container1 {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color:rgba(210, 119, 103, 0.624);
+    justify-content: space-between;
+    
+  }
+
+  div {
+    font-size: larger;
+    color:rgb(186, 185, 188);
+    background-color: rgb(230, 212, 233);
+    padding: 10px;
+  }
+
+
+  
+
+
