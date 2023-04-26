@@ -37,6 +37,74 @@ const box8 = document.createElement('div');
 flex1.appendChild(box8);
 box8.addEventListener("mouseover", colorChange);
 
+const box9 = document.createElement('div');
+flex1.appendChild(box9);
+box9.addEventListener("mouseover", colorChange);
+
+const box10 = document.createElement('div');
+flex1.appendChild(box10);
+box10.addEventListener("mouseover", colorChange);
+
+const box11 = document.createElement('div');
+flex1.appendChild(box11);
+box11.addEventListener("mouseover", colorChange);
+
+const box12 = document.createElement('div');
+flex1.appendChild(box12);
+box12.addEventListener("mouseover", colorChange);
+
+const box13 = document.createElement('div');
+flex1.appendChild(box13);
+box13.addEventListener("mouseover", colorChange);
+
+const box14 = document.createElement('div');
+flex1.appendChild(box14);
+box14.addEventListener("mouseover", colorChange);
+
+const box15 = document.createElement('div');
+flex1.appendChild(box15);
+box15.addEventListener("mouseover", colorChange);
+
+const box16 = document.createElement('div');
+flex1.appendChild(box16);
+box16.addEventListener("mouseover", colorChange);
+
+const box17 = document.createElement('div');
+flex1.appendChild(box17);
+box17.addEventListener("mouseover", colorChange);
+
+const box18 = document.createElement('div');
+flex1.appendChild(box18);
+box18.addEventListener("mouseover", colorChange);
+
+const box19 = document.createElement('div');
+flex1.appendChild(box19);
+box19.addEventListener("mouseover", colorChange);
+
+const box20 = document.createElement('div');
+flex1.appendChild(box20);
+box20.addEventListener("mouseover", colorChange);
+
+const box21 = document.createElement('div');
+flex1.appendChild(box21);
+box21.addEventListener("mouseover", colorChange);
+
+const box22 = document.createElement('div');
+flex1.appendChild(box22);
+box22.addEventListener("mouseover", colorChange);
+
+const box23 = document.createElement('div');
+flex1.appendChild(box23);
+box23.addEventListener("mouseover", colorChange);
+
+const box24 = document.createElement('div');
+flex1.appendChild(box24);
+box24.addEventListener("mouseover", colorChange);
+
+const box25 = document.createElement('div');
+flex1.appendChild(box25);
+box25.addEventListener("mouseover", colorChange);
+
 
 //second container
 const baux1 = document.createElement('div');
@@ -111,6 +179,70 @@ bahx8.addEventListener("mouseover", colorChange);
 const bahx9 = document.createElement('div');
 flex3.appendChild(bahx9);
 bahx9.addEventListener("mouseover", colorChange);
+
+const bahx10 = document.createElement('div');
+flex3.appendChild(bahx10);
+bahx10.addEventListener("mouseover", colorChange);
+
+const bahx11 = document.createElement('div');
+flex3.appendChild(bahx11);
+bahx11.addEventListener("mouseover", colorChange);
+
+const bahx12 = document.createElement('div');
+flex3.appendChild(bahx12);
+bahx12.addEventListener("mouseover", colorChange);
+
+const bahx13 = document.createElement('div');
+flex3.appendChild(bahx13);
+bahx13.addEventListener("mouseover", colorChange);
+
+const bahx14 = document.createElement('div');
+flex3.appendChild(bahx14);
+bahx14.addEventListener("mouseover", colorChange);
+
+const bahx15 = document.createElement('div');
+flex3.appendChild(bahx15);
+bahx15.addEventListener("mouseover", colorChange);
+
+const bahx16 = document.createElement('div');
+flex3.appendChild(bahx16);
+bahx16.addEventListener("mouseover", colorChange);
+
+const bahx17 = document.createElement('div');
+flex3.appendChild(bahx17);
+bahx17.addEventListener("mouseover", colorChange);
+
+const bahx18 = document.createElement('div');
+flex3.appendChild(bahx18);
+bahx18.addEventListener("mouseover", colorChange);
+
+const bahx19 = document.createElement('div');
+flex3.appendChild(bahx19);
+bahx19.addEventListener("mouseover", colorChange);
+
+const bahx20 = document.createElement('div');
+flex3.appendChild(bahx20);
+bahx20.addEventListener("mouseover", colorChange);
+
+const bahx21 = document.createElement('div');
+flex3.appendChild(bahx21);
+bahx21.addEventListener("mouseover", colorChange);
+
+const bahx22 = document.createElement('div');
+flex3.appendChild(bahx22);
+bahx22.addEventListener("mouseover", colorChange);
+
+const bahx23 = document.createElement('div');
+flex3.appendChild(bahx23);
+bahx23.addEventListener("mouseover", colorChange);
+
+const bahx24 = document.createElement('div');
+flex3.appendChild(bahx24);
+bahx24.addEventListener("mouseover", colorChange);
+
+const bahx25 = document.createElement('div');
+flex3.appendChild(bahx25);
+bahx25.addEventListener("mouseover", colorChange);
 
 //fourth container
 const bahks1 = document.createElement('div');
