@@ -1,4 +1,3 @@
 # etch-a-sketch
-odin JS project
-going to be creating a browser version of sketchpad/etch-a-sketch 
-
+odin project with elements of HTML, CSS, and mainly javascript going to be creating a browser version of sketchpad/etch-a-sketch game, main functionality will be having a 16x16 grid consisting of square divs, that can be triggered with a mouseover function. The mouseover function should change the color of the square. On top of that, the player should be able to input what size they want the grid to be, with the largest being 16x16. 
+The challenging part for me will be creating the loop function for creating the divs, I'll need to learn how to create a loop function that is capable of creating divs, which I haven't done before. 

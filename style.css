@@ -74,10 +74,10 @@
     display:flex;
     color:rgb(186, 185, 188);
     background-color: rgb(247, 189, 247);
-    
-    height: 30em;
-    width: 30em;
-    max-width:30em;
+    min-height:10px;
+    min-width:10px;
+    height:auto;
+    width:auto;
   }
 
   
