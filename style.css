@@ -1,44 +1,39 @@
   .title {
-    color: rgb(50, 150, 168);
+    color: rgb(23, 2, 144);
   }
 
   body {
     display:flex;
     flex-direction: column;
-    margin: 0;
-    min-height:100vh;
-    min-width:100vh;
     justify-content:center;
     align-items: center;
+    background-color:crimson;
     }
 
   #container {
     display:flex;
-    flex:1;
     flex-direction: row;
     background-color:rgb(44, 235, 225);
     justify-content:center;
     align-items:center;
-    min-height: 100vh;
-    width:auto;
+    height:0;
+    width:60%;
+    max-width:100%;
     flex-wrap: wrap;
   }
 
 
-
   div {
-    display:flex;
-    flex:1;
     color:rgb(186, 185, 188);
-    background-color: rgb(80, 4, 80);
-    min-height:82px;
-    min-width:82px;
-    margin:0;
-    height:auto;
-    width:auto;
+    background-color:crimson;
+    width:5%;
+    padding-bottom:5%;
+    height:0;
   }
 
-  
+#gridBtn {
+  border:10px;
+}
   
 
 
