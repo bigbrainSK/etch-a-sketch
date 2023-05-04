@@ -12,13 +12,14 @@
 
   #container {
     display:flex;
-    flex-direction: row;
+    flex: 1 0 auto;
     background-color:rgb(10, 10, 59);
-    justify-content:center;
-    align-items:center;
+    justify-content:center; 
+    align-items:center; 
     height:0;
     width:60%;
-    max-width:100%;
+    max-width:60%; 
+    max-height:auto;
     flex-wrap: wrap;
   }
 
@@ -37,7 +38,9 @@
     padding-bottom:100%;
   }
 #gridBtn {
-  border:10px;
+  background-color:rgb(189, 61, 194);
+  height:40px;
+  width:100px;
 }
   
 
