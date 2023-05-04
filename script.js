@@ -7,7 +7,7 @@ box.addEventListener("mouseover", colorChange);
 
 let userPrompt = '';
 let divAdd = document.createDocumentFragment() 
-let grid = 256;
+let grid = 255;
 
 for (let i=0; i<grid; i++) {
     box = document.createElement('div');

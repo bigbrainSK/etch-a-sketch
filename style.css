@@ -12,24 +12,25 @@
 
   #container {
     display:flex;
-    flex: 1 0 auto;
-    background-color:rgb(10, 10, 59);
+    flex: auto;
+    padding: 0;
+    margin: 0;
+    background-color:crimson;
     justify-content:center; 
-    align-items:center; 
-    height:0;
-    width:60%;
-    max-width:60%; 
-    max-height:auto;
     flex-wrap: wrap;
+    height:600px;
+    width:600px;
+
   }
 
 
   div {
     color:rgb(186, 185, 188);
     background-color:crimson;
-    width:5%;
-    padding-bottom:5%;
+    width: 6.2%;
     height:0;
+    padding-bottom:6.2%;
+    
   }
 
   div:after {
