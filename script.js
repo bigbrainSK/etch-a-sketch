@@ -1,6 +1,4 @@
-//can I create a loop for declaring each of the 16 containers (?)
-const container = document.querySelector("#container");
-const container2 = document.querySelector("#container2");
+let container = document.querySelector("#container");
 let box = document.createElement('div');
 container.appendChild(box);
 box.addEventListener("mouseover", colorChange); 
@@ -20,17 +18,22 @@ for (let i=0; i<grid; i++) {
 function gridPrompt() {   
      let userPrompt = prompt("enter a number from 1 - 100." ) 
      let parsedPrompt = parseInt(userPrompt);
-     grid = parsedPrompt;
+     parsedPrompt = Math.pow(parsedPrompt, 2);
      alert(userPrompt);
-     container.remove   //need to find remove element method
+     container.remove();  
+     container = document.createElement('div'); 
+     container.setAttribute('id', 'container');
+     document.body.appendChild(container);
 
         for (let i=0; i<parsedPrompt; i++) {
             box = document.createElement('div');
+            box.style.width = (600/parsedPrompt + 'px');
+            box.style.height = (600/parsedPrompt + 'px');
             container.appendChild(box);
             box.addEventListener("mouseover", colorChange); 
             box.addEventListener("click", revertColor);     //function to revert the color with a click
         }
-        if (parsedPrompt <1 || parsedPrompt >100) {
+        if (parsedPrompt <1 || parsedPrompt >1000) {
             parsedPrompt = 256;
             alert('try again');
         }
