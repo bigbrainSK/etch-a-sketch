@@ -1,15 +1,13 @@
 let container = document.querySelector("#container");
-let box = document.createElement('div');
-container.appendChild(box);
-box.addEventListener("mouseover", colorChange); 
 
 let userPrompt = '';
 let divAdd = document.createDocumentFragment() 
-let grid = 255;
+let grid = 256;
 
 for (let i=0; i<grid; i++) {
-    box = document.createElement('div');
+    box = document.createElement('div')
     container.appendChild(box);
+    box.classList.add('box1');
     box.addEventListener("mouseover", colorChange); 
     box.addEventListener("click", revertColor);     //function to revert the color with a click
 }
@@ -18,23 +16,21 @@ for (let i=0; i<grid; i++) {
 function gridPrompt() {   
      let userPrompt = prompt("enter a number from 1 - 100." ) 
      let parsedPrompt = parseInt(userPrompt);
-     parsedPrompt = Math.pow(parsedPrompt, 2);
-     alert(userPrompt);
+     let finalPrompt = Math.pow(parsedPrompt, 2);
      container.remove();  
-     container = document.createElement('div'); 
-     container.setAttribute('id', 'container');
-     document.body.appendChild(container);
+     let container2 = document.querySelector("#container2");
 
-        for (let i=0; i<parsedPrompt; i++) {
+        for (let i=0; i<finalPrompt; i++) {
             box = document.createElement('div');
-            box.style.width = (600/parsedPrompt + 'px');
-            box.style.height = (600/parsedPrompt + 'px');
-            container.appendChild(box);
+            box.style.width = (650/parsedPrompt)+'px';
+            box.style.height = (650/parsedPrompt)+'px';
+            box.classList.add('box2');
+            container2.appendChild(box);
             box.addEventListener("mouseover", colorChange); 
-            box.addEventListener("click", revertColor);     //function to revert the color with a click
+            box.addEventListener("click", revertColor);    
         }
-        if (parsedPrompt <1 || parsedPrompt >1000) {
-            parsedPrompt = 256;
+        if (finalPrompt <1 || finalPrompt >10000) {
+            finalPrompt = 256;
             alert('try again');
         }
 }
@@ -45,5 +41,9 @@ function colorChange() {
 
 function revertColor() {
     this.style.backgroundColor = 'crimson';
-}
+} 
 
+function clearContainer() {
+    //console.log(document.getElementById("container2"));
+    document.getElementById("container2").innerHTML = '';
+}
